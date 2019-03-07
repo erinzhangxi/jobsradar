@@ -1,0 +1,33 @@
+{
+  "name": "jobsradar",
+  "version": "1.0.0",
+  "description": "A web app project that helps you land your dream internship",
+  "main": "index.js",
+  "dependencies": {
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "webpack": "^4.29.6",
+    "webpack-bundle-tracker": "^0.4.2-beta",
+    "webpack-cli": "^3.2.3"
+  },
+  "scripts": {
+    "build": "webpack --config webpack.config.js --progress --colors --mode development",
+    "watch": "webpack --config webpack.config.js --watch --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://erinzhangxi@github.com/erinzhangxi/jobsradar.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/erinzhangxi/jobsradar/issues"
+  },
+  "homepage": "https://github.com/erinzhangxi/jobsradar#readme"
+}
